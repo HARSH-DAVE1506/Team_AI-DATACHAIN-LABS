@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Blogs Corner</title>
+    <link rel="shortcut icon" href="Hackathon.png" type="image/x-icon">
+    <link rel="stylesheet" href="Blogs.css">
+    <style>
+        body{
+            margin: 0px;
+            padding: 0px;
+        }
+        nav{
+            height: 85px;
+            
+            display: flex;
+            justify-content: space-between;
+            font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSyst;
+            margin-top: 10px;
+            margin-left: 10px;
+            margin-right: 10px;
+            border-radius: 15px;
+            padding: 0px;
+            background-image: linear-gradient(
+            var(--rotate)
+           , rgb(95, 130, 255), #1b69fa, #1a264c 43%, #5306c6);
+            
+            
+        }
+        nav p{
+            border-left: black 2px;
+        }
+        nav a{
+            margin:10px 10px 0px;
+            
+        }
+        
+        nav ul{
+            list-style: none;
+            display: flex;
+            padding-right: 6.5%;
+        }
+        nav ul li{
+            margin: 15px;
+            color: white;
+            font-weight: bold;
+            tab-size: 4px;
+            border-radius: 12px;
+        }
+        ul li a{
+            padding: 12px 16px;
+
+        }
+        li a:hover{
+            background-color: rgb(29 78 216);
+            color:white;
+            border-radius: 5px;
+            box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+            transition-duration:65ms;
+        }
+        button{
+            margin: 15px;
+            color: white;
+            font-weight:bold;
+            tab-size: 4px;
+            border-radius: 12px;
+            padding: 12px 16px;
+            font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSyst;
+            font-size: 18px;
+            background: none;
+
+        }
+        button:hover{
+            background-color: rgb(58, 105, 235);
+            color:white;
+            border-radius: 5px;
+            box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+            transition-duration:65ms;
+        
+        }
+        
+        .waviy {
+        position: relative;
+        margin-left: 30px;
+        margin-top: 25px;
+        }
+        .waviy span {
+        position: relative;
+        display: inline-block;
+        font-size: 22px;
+        color: #fff;
+        text-transform: uppercase;
+        animation: flip 2s infinite;
+        animation-delay: calc(.2s * var(--i))
+        }
+        @keyframes flip {
+        0%,80% {
+        transform: rotateY(360deg) 
+        }
+        }
+        p{
+            font-size: 15px;
+        }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <a href="index.html"><img src="Hackathon.png" alt="Hackathon" height="70px" style="border-radius: 70%;"></a>
+        
+        <ul>
+            <li><a href="index.html">Home</a></li><hr style="height: 35px;">
+            <li><a href="Creative Labs.html">Creative Labs</a></li><hr style="height: 35px;">
+            <li><a href="AI-ML Labs.html">AI/ML Labs</a></li>
+        </ul>
+        <button style=" border: none; ">Create Blogs</button>
+    </nav>
+
+    <div class="waviy">
+      <span style="--i:1">B</span>
+      <span style="--i:2">l</span>
+      <span style="--i:3">o</span>
+      <span style="--i:4">g</span>
+      <span style="--i:5">s</span>
+     
+     </div>
+
+<div class="content">
+    <!-- card -->
+    <div class="card">
+  <a href="#">
+       <div class="icon"><i class="material-icons md-36"></i></div>
+          <p class="title">Filecoin Foundation</p>
+          <p class="text"></p>
+    </div>
+  </a>
+    <div class="card">
+      <a href="#" target="_blank" rel="noopener noreferrer">
+        <div class="icon2"><i class="material-icons md-36"></i></div>
+            <p class="title">Polygon 2.0</p>
+            <p class="text"></p>
+        </div>
+      </a>
+        <div class="card">
+          <a href="#" target="_blank" rel="noopener noreferrer">
+            <div class="icon3"><i class="material-icons md-36"></i></div>
+                <p class="title">Generative AI</p>
+            </div>
+          </a>
+    </div>
+</body>
+</html>
