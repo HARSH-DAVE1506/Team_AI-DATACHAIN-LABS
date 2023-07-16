@@ -13,5 +13,4 @@ Window to the dataset that we have use to traine our recommendation engine for c
 
 <img width="410" alt="image" src="https://github.com/HARSH-DAVE1506/Team_AI-DATACHAIN-LABS/assets/71650330/c781ba79-fdd4-46fd-9d4b-0564d53d5cb3">
 
-Accuracy of our model used for recommendation engine.
-<img width="169" alt="image" src="https://github.com/HARSH-DAVE1506/Team_AI-DATACHAIN-LABS/assets/71650330/d8135b2f-6600-4238-b4e6-8961f558d69c">
+Accuracy of our model is 82-83% which is used for recommendation engine.
