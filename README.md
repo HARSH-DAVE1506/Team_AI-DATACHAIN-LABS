@@ -16,7 +16,7 @@ Window to the dataset that we have use to traine our recommendation engine for c
 
 Accuracy of our model is 82-83% which is used for recommendation engine.
 
-Here are screen shot to our test of NFT minting and storage feature.
+Here are screen shot to our test of NFT data storage feature which will help us to achiven our true unicity goal.
 
 ![test_nft](https://github.com/HARSH-DAVE1506/Team_AI-DATACHAIN-LABS/assets/71650330/9af6b178-a859-4a0e-992e-fedb5949ec4b)
 
